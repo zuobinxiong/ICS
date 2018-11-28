@@ -1,0 +1,1000 @@
+Oct  8 07:35:07 alina anacron[90905]: Job `cron.daily' terminated
+Oct  8 07:35:07 alina anacron[90905]: Normal exit (1 job run)
+Oct  8 07:35:09 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:35:09 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:35:09 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:35:10 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:35:10 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:35:10 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:35:10 alina kernel: [22599614.933841] audit: type=1400 audit(1538998510.192:67430): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/91817/status" pid=91817 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:35:10 alina kernel: [22599614.933903] audit: type=1400 audit(1538998510.192:67431): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=91817 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:35:10 alina kernel: [22599614.934089] audit: type=1400 audit(1538998510.192:67432): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/91817/status" pid=91817 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:35:10 alina kernel: [22599615.107574] audit: type=1400 audit(1538998510.364:67433): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibxf9ToK" pid=91817 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:35:10 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:35:40 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:35:40 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:35:40 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:35:40 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:35:40 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:35:40 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:35:40 alina kernel: [22599645.427916] audit: type=1400 audit(1538998540.685:67434): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/91897/status" pid=91897 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:35:40 alina kernel: [22599645.427976] audit: type=1400 audit(1538998540.685:67435): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=91897 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:35:40 alina kernel: [22599645.428161] audit: type=1400 audit(1538998540.685:67436): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/91897/status" pid=91897 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:35:40 alina kernel: [22599645.599599] audit: type=1400 audit(1538998540.857:67437): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibbb9N9r" pid=91897 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:35:40 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:36:10 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:36:10 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:36:10 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:36:11 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:36:11 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:36:11 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:36:11 alina kernel: [22599675.928194] audit: type=1400 audit(1538998571.190:67438): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/91975/status" pid=91975 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:36:11 alina kernel: [22599675.928246] audit: type=1400 audit(1538998571.190:67439): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=91975 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:36:11 alina kernel: [22599675.928428] audit: type=1400 audit(1538998571.190:67440): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/91975/status" pid=91975 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:36:11 alina kernel: [22599676.111992] audit: type=1400 audit(1538998571.374:67441): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibOEbN3Y" pid=91975 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:36:11 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:36:41 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:36:41 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:36:41 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:36:41 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:36:41 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:36:41 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:36:41 alina kernel: [22599706.425355] audit: type=1400 audit(1538998601.695:67442): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92055/status" pid=92055 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:36:41 alina kernel: [22599706.425406] audit: type=1400 audit(1538998601.695:67443): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92055 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:36:41 alina kernel: [22599706.425586] audit: type=1400 audit(1538998601.695:67444): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92055/status" pid=92055 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:36:41 alina kernel: [22599706.608529] audit: type=1400 audit(1538998601.875:67445): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/iboizkvG" pid=92055 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:36:41 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:37:11 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:37:11 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:37:11 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:37:12 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:37:12 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:37:12 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:37:12 alina kernel: [22599736.921384] audit: type=1400 audit(1538998632.192:67446): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92132/status" pid=92132 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:37:12 alina kernel: [22599736.921443] audit: type=1400 audit(1538998632.196:67447): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92132 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:37:12 alina kernel: [22599736.921619] audit: type=1400 audit(1538998632.196:67448): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92132/status" pid=92132 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:37:12 alina kernel: [22599737.104296] audit: type=1400 audit(1538998632.376:67449): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibR4xtxe" pid=92132 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:37:12 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:37:42 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:37:42 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:37:42 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:37:42 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:37:42 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:37:42 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:37:42 alina kernel: [22599767.414376] audit: type=1400 audit(1538998662.689:67450): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92213/status" pid=92213 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:37:42 alina kernel: [22599767.414433] audit: type=1400 audit(1538998662.689:67451): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92213 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:37:42 alina kernel: [22599767.414612] audit: type=1400 audit(1538998662.689:67452): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92213/status" pid=92213 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:37:42 alina kernel: [22599767.586752] audit: type=1400 audit(1538998662.861:67453): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib6w6uOW" pid=92213 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:37:42 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:38:12 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:38:12 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:38:12 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:38:13 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:38:13 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:38:13 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:38:13 alina kernel: [22599797.912330] audit: type=1400 audit(1538998693.191:67454): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92291/status" pid=92291 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:38:13 alina kernel: [22599797.912387] audit: type=1400 audit(1538998693.191:67455): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92291 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:38:13 alina kernel: [22599797.912576] audit: type=1400 audit(1538998693.191:67456): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92291/status" pid=92291 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:38:13 alina kernel: [22599798.096992] audit: type=1400 audit(1538998693.375:67457): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibcdZM0t" pid=92291 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:38:13 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:38:43 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:38:43 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:38:43 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:38:43 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:38:43 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:38:43 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:38:43 alina kernel: [22599828.409697] audit: type=1400 audit(1538998723.692:67458): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92370/status" pid=92370 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:38:43 alina kernel: [22599828.409756] audit: type=1400 audit(1538998723.692:67459): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92370 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:38:43 alina kernel: [22599828.409956] audit: type=1400 audit(1538998723.696:67460): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92370/status" pid=92370 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:38:43 alina kernel: [22599828.590991] audit: type=1400 audit(1538998723.876:67461): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibAr8aDb" pid=92370 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:38:43 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:39:13 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:39:13 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:39:13 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:39:14 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:39:14 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:39:14 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:39:14 alina kernel: [22599858.905558] audit: type=1400 audit(1538998754.189:67462): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92449/status" pid=92449 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:39:14 alina kernel: [22599858.905617] audit: type=1400 audit(1538998754.189:67463): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92449 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:39:14 alina kernel: [22599858.905803] audit: type=1400 audit(1538998754.189:67464): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92449/status" pid=92449 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:39:14 alina kernel: [22599859.087365] audit: type=1400 audit(1538998754.373:67465): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibzXiMCJ" pid=92449 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:39:14 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:39:44 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:39:44 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:39:44 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:39:44 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:39:44 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:39:44 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:39:44 alina kernel: [22599889.401073] audit: type=1400 audit(1538998784.690:67466): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92526/status" pid=92526 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:39:44 alina kernel: [22599889.401132] audit: type=1400 audit(1538998784.690:67467): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92526 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:39:44 alina kernel: [22599889.401311] audit: type=1400 audit(1538998784.690:67468): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92526/status" pid=92526 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:39:44 alina kernel: [22599889.585882] audit: type=1400 audit(1538998784.874:67469): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibAhdnNq" pid=92526 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:39:44 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:40:01 alina CRON[92569]: (smmsp) CMD (test -x /etc/init.d/sendmail && test -x /usr/share/sendmail/sendmail && test -x /usr/lib/sm.bin/sendmail && /usr/share/sendmail/sendmail cron-msp)
+Oct  8 07:40:14 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:40:14 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:40:14 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:40:15 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:40:15 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:40:15 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:40:15 alina kernel: [22599919.898720] audit: type=1400 audit(1538998815.195:67470): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92627/status" pid=92627 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:40:15 alina kernel: [22599919.898780] audit: type=1400 audit(1538998815.195:67471): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92627 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:40:15 alina kernel: [22599919.898960] audit: type=1400 audit(1538998815.195:67472): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92627/status" pid=92627 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:40:15 alina kernel: [22599920.079150] audit: type=1400 audit(1538998815.375:67473): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibD1CS0Y" pid=92627 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:40:15 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:40:45 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:40:45 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:40:45 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:40:45 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:40:45 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:40:45 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:40:45 alina kernel: [22599950.390251] audit: type=1400 audit(1538998845.688:67474): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92708/status" pid=92708 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:40:45 alina kernel: [22599950.390315] audit: type=1400 audit(1538998845.688:67475): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92708 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:40:45 alina kernel: [22599950.390493] audit: type=1400 audit(1538998845.688:67476): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92708/status" pid=92708 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:40:45 alina kernel: [22599950.564678] audit: type=1400 audit(1538998845.864:67477): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibun1LdH" pid=92708 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:40:45 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:41:15 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:41:15 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:41:15 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:41:16 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:41:16 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:41:16 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:41:16 alina kernel: [22599980.896692] audit: type=1400 audit(1538998876.197:67478): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92787/status" pid=92787 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:41:16 alina kernel: [22599980.896743] audit: type=1400 audit(1538998876.197:67479): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92787 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:41:16 alina kernel: [22599980.896934] audit: type=1400 audit(1538998876.197:67480): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92787/status" pid=92787 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:41:16 alina kernel: [22599981.080079] audit: type=1400 audit(1538998876.381:67481): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibDfMqdf" pid=92787 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:41:16 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:41:46 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:41:46 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:41:46 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:41:46 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:41:46 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:41:46 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:41:46 alina kernel: [22600011.403863] audit: type=1400 audit(1538998906.711:67482): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92865/status" pid=92865 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:41:46 alina kernel: [22600011.403923] audit: type=1400 audit(1538998906.711:67483): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92865 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:41:46 alina kernel: [22600011.404101] audit: type=1400 audit(1538998906.711:67484): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92865/status" pid=92865 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:41:46 alina kernel: [22600011.578557] audit: type=1400 audit(1538998906.883:67485): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibhHYzSY" pid=92865 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:41:46 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:42:16 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:42:16 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:42:16 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:42:17 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:42:17 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:42:17 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:42:17 alina kernel: [22600041.880896] audit: type=1400 audit(1538998937.192:67486): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92944/status" pid=92944 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:42:17 alina kernel: [22600041.880951] audit: type=1400 audit(1538998937.192:67487): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=92944 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:42:17 alina kernel: [22600041.881125] audit: type=1400 audit(1538998937.192:67488): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/92944/status" pid=92944 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:42:17 alina kernel: [22600042.066932] audit: type=1400 audit(1538998937.376:67489): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibpx1xUt" pid=92944 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:42:17 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:42:47 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:42:47 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:42:47 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:42:47 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:42:47 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:42:47 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:42:47 alina kernel: [22600072.377902] audit: type=1400 audit(1538998967.689:67490): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93021/status" pid=93021 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:42:47 alina kernel: [22600072.377963] audit: type=1400 audit(1538998967.689:67491): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93021 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:42:47 alina kernel: [22600072.378144] audit: type=1400 audit(1538998967.689:67492): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93021/status" pid=93021 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:42:47 alina kernel: [22600072.561735] audit: type=1400 audit(1538998967.873:67493): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib9UtZkb" pid=93021 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:42:47 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:43:17 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:43:17 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:43:17 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:43:18 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:43:18 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:43:18 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:43:18 alina kernel: [22600102.875168] audit: type=1400 audit(1538998998.190:67494): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93101/status" pid=93101 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:43:18 alina kernel: [22600102.875225] audit: type=1400 audit(1538998998.190:67495): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93101 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:43:18 alina kernel: [22600102.875397] audit: type=1400 audit(1538998998.190:67496): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93101/status" pid=93101 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:43:18 alina kernel: [22600103.056080] audit: type=1400 audit(1538998998.374:67497): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibLIPltJ" pid=93101 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:43:18 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:43:48 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:43:48 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:43:48 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:43:48 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:43:48 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:43:48 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:43:48 alina kernel: [22600133.366415] audit: type=1400 audit(1538999028.687:67498): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93179/status" pid=93179 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:43:48 alina kernel: [22600133.366474] audit: type=1400 audit(1538999028.687:67499): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93179 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:43:48 alina kernel: [22600133.366656] audit: type=1400 audit(1538999028.687:67500): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93179/status" pid=93179 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:43:48 alina kernel: [22600133.539424] audit: type=1400 audit(1538999028.859:67501): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibPzSwPr" pid=93179 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:43:48 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:44:18 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:44:18 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:44:18 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:44:19 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:44:19 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:44:19 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:44:19 alina kernel: [22600163.869044] audit: type=1400 audit(1538999059.196:67502): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93257/status" pid=93257 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:44:19 alina kernel: [22600163.869100] audit: type=1400 audit(1538999059.196:67503): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93257 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:44:19 alina kernel: [22600163.869271] audit: type=1400 audit(1538999059.196:67504): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93257/status" pid=93257 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:44:19 alina kernel: [22600164.048342] audit: type=1400 audit(1538999059.376:67505): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib6oHSXY" pid=93257 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:44:19 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:44:49 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:44:49 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:44:49 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:44:49 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:44:49 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:44:49 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:44:49 alina kernel: [22600194.355520] audit: type=1400 audit(1538999089.682:67506): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93336/status" pid=93336 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:44:49 alina kernel: [22600194.355575] audit: type=1400 audit(1538999089.682:67507): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93336 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:44:49 alina kernel: [22600194.355738] audit: type=1400 audit(1538999089.682:67508): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93336/status" pid=93336 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:44:49 alina kernel: [22600194.535264] audit: type=1400 audit(1538999089.862:67509): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibHvXJdH" pid=93336 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:44:49 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:45:19 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:45:19 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:45:19 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:45:20 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:45:20 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:45:20 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:45:20 alina kernel: [22600224.863169] audit: type=1400 audit(1538999120.195:67510): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93414/status" pid=93414 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:45:20 alina kernel: [22600224.863225] audit: type=1400 audit(1538999120.195:67511): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93414 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:45:20 alina kernel: [22600224.863420] audit: type=1400 audit(1538999120.195:67512): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93414/status" pid=93414 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:45:20 alina kernel: [22600225.040775] audit: type=1400 audit(1538999120.375:67513): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibuCbyre" pid=93414 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:45:20 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:45:50 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:45:50 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:45:50 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:45:50 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:45:50 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:45:50 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:45:50 alina kernel: [22600255.348019] audit: type=1400 audit(1538999150.684:67514): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93493/status" pid=93493 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:45:50 alina kernel: [22600255.348072] audit: type=1400 audit(1538999150.684:67515): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93493 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:45:50 alina kernel: [22600255.348268] audit: type=1400 audit(1538999150.684:67516): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93493/status" pid=93493 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:45:50 alina kernel: [22600255.527514] audit: type=1400 audit(1538999150.864:67517): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibcJ4mIW" pid=93493 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:45:50 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:46:20 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:46:20 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:46:20 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:46:21 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:46:21 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:46:21 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:46:21 alina kernel: [22600285.853003] audit: type=1400 audit(1538999181.193:67518): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93572/status" pid=93572 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:46:21 alina kernel: [22600285.853062] audit: type=1400 audit(1538999181.193:67519): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93572 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:46:21 alina kernel: [22600285.853239] audit: type=1400 audit(1538999181.193:67520): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93572/status" pid=93572 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:46:21 alina kernel: [22600286.035663] audit: type=1400 audit(1538999181.373:67521): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibuMowUt" pid=93572 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:46:21 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:46:51 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:46:51 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:46:51 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:46:51 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:46:51 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:46:51 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:46:51 alina kernel: [22600316.344292] audit: type=1400 audit(1538999211.686:67522): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93649/status" pid=93649 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:46:51 alina kernel: [22600316.344352] audit: type=1400 audit(1538999211.686:67523): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93649 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:46:51 alina kernel: [22600316.344524] audit: type=1400 audit(1538999211.686:67524): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93649/status" pid=93649 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:46:51 alina kernel: [22600316.519878] audit: type=1400 audit(1538999211.862:67525): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibiizrcc" pid=93649 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:46:51 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:47:21 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:47:21 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:47:21 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:47:22 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:47:22 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:47:22 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:47:22 alina kernel: [22600346.840866] audit: type=1400 audit(1538999242.187:67526): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93730/status" pid=93730 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:47:22 alina kernel: [22600346.840920] audit: type=1400 audit(1538999242.187:67527): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93730 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:47:22 alina kernel: [22600346.841130] audit: type=1400 audit(1538999242.191:67528): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93730/status" pid=93730 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:47:22 alina kernel: [22600347.013745] audit: type=1400 audit(1538999242.363:67529): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibfqJlnK" pid=93730 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:47:22 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:47:52 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:47:52 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:47:52 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:47:52 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:47:52 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:47:52 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:47:52 alina kernel: [22600377.344567] audit: type=1400 audit(1538999272.696:67530): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93807/status" pid=93807 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:47:52 alina kernel: [22600377.344623] audit: type=1400 audit(1538999272.696:67531): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93807 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:47:52 alina kernel: [22600377.344797] audit: type=1400 audit(1538999272.696:67532): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93807/status" pid=93807 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:47:52 alina kernel: [22600377.523847] audit: type=1400 audit(1538999272.876:67533): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibRcahTq" pid=93807 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:47:52 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:48:22 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:48:22 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:48:22 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:48:23 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:48:23 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:48:23 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:48:23 alina kernel: [22600407.833959] audit: type=1400 audit(1538999303.190:67534): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93889/status" pid=93889 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:48:23 alina kernel: [22600407.834010] audit: type=1400 audit(1538999303.190:67535): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93889 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:48:23 alina kernel: [22600407.834193] audit: type=1400 audit(1538999303.190:67536): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93889/status" pid=93889 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:48:23 alina kernel: [22600408.018854] audit: type=1400 audit(1538999303.374:67537): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibaxEdZY" pid=93889 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:48:23 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:48:53 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:48:53 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:48:53 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:48:53 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:48:53 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:48:53 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:48:53 alina kernel: [22600438.333436] audit: type=1400 audit(1538999333.691:67538): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93966/status" pid=93966 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:48:53 alina kernel: [22600438.333495] audit: type=1400 audit(1538999333.691:67539): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=93966 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:48:53 alina kernel: [22600438.333699] audit: type=1400 audit(1538999333.695:67540): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/93966/status" pid=93966 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:48:53 alina kernel: [22600438.512932] audit: type=1400 audit(1538999333.871:67541): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibEY6EqF" pid=93966 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:48:53 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:49:23 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:49:23 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:49:23 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:49:24 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:49:24 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:49:24 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:49:24 alina kernel: [22600468.832483] audit: type=1400 audit(1538999364.196:67542): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94046/status" pid=94046 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:49:24 alina kernel: [22600468.832533] audit: type=1400 audit(1538999364.196:67543): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94046 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:49:24 alina kernel: [22600468.832721] audit: type=1400 audit(1538999364.196:67544): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94046/status" pid=94046 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:49:24 alina kernel: [22600469.012763] audit: type=1400 audit(1538999364.376:67545): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibUFCEme" pid=94046 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:49:24 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:49:54 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:49:54 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:49:54 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:49:54 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:49:54 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:49:54 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:49:54 alina kernel: [22600499.341326] audit: type=1400 audit(1538999394.705:67546): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94124/status" pid=94124 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:49:54 alina kernel: [22600499.341384] audit: type=1400 audit(1538999394.705:67547): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94124 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:49:54 alina kernel: [22600499.341567] audit: type=1400 audit(1538999394.705:67548): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94124/status" pid=94124 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:49:54 alina kernel: [22600499.526001] audit: type=1400 audit(1538999394.893:67549): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibA5cEbZ" pid=94124 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:49:54 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:50:24 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:50:24 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:50:24 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:50:25 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:50:25 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:50:25 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:50:25 alina kernel: [22600529.690352] audit: type=1400 audit(1538999425.062:67550): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94211/status" pid=94211 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:50:25 alina kernel: [22600529.690407] audit: type=1400 audit(1538999425.062:67551): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94211 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:50:25 alina kernel: [22600529.690604] audit: type=1400 audit(1538999425.062:67552): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94211/status" pid=94211 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:50:25 alina kernel: [22600529.864170] audit: type=1400 audit(1538999425.234:67553): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibQH6u1l" pid=94211 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:50:25 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:50:55 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:50:55 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:50:55 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:50:55 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:50:55 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:50:55 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:50:55 alina kernel: [22600560.073307] audit: type=1400 audit(1538999455.447:67554): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94303/status" pid=94303 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:50:55 alina kernel: [22600560.073368] audit: type=1400 audit(1538999455.447:67555): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94303 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:50:55 alina kernel: [22600560.073551] audit: type=1400 audit(1538999455.447:67556): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94303/status" pid=94303 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:50:55 alina kernel: [22600560.261526] audit: type=1400 audit(1538999455.635:67557): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib6vbDVT" pid=94303 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:50:55 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:51:25 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:51:25 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:51:25 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:51:25 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:51:25 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:51:25 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:51:25 alina kernel: [22600590.563026] audit: type=1400 audit(1538999485.945:67558): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94389/status" pid=94389 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:51:25 alina kernel: [22600590.563085] audit: type=1400 audit(1538999485.945:67559): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94389 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:51:25 alina kernel: [22600590.563263] audit: type=1400 audit(1538999485.945:67560): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94389/status" pid=94389 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:51:26 alina kernel: [22600590.737883] audit: type=1400 audit(1538999486.117:67561): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibLfvPNp" pid=94389 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:51:26 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:51:56 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:51:56 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:51:56 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:51:56 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:51:56 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:51:56 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:51:56 alina kernel: [22600621.058878] audit: type=1400 audit(1538999516.442:67562): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94475/status" pid=94475 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:51:56 alina kernel: [22600621.058956] audit: type=1400 audit(1538999516.442:67563): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94475 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:51:56 alina kernel: [22600621.059181] audit: type=1400 audit(1538999516.442:67564): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94475/status" pid=94475 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:51:56 alina kernel: [22600621.231509] audit: type=1400 audit(1538999516.614:67565): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib3yGms7" pid=94475 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:51:56 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:52:26 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:52:26 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:52:26 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:52:26 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:52:26 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:52:26 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:52:26 alina kernel: [22600651.559137] audit: type=1400 audit(1538999546.947:67566): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94556/status" pid=94556 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:52:26 alina kernel: [22600651.559197] audit: type=1400 audit(1538999546.947:67567): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94556 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:52:26 alina kernel: [22600651.559374] audit: type=1400 audit(1538999546.947:67568): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94556/status" pid=94556 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:52:27 alina kernel: [22600651.734663] audit: type=1400 audit(1538999547.119:67569): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib70A89F" pid=94556 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:52:27 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:52:57 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:52:57 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:52:57 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:52:57 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:52:57 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:52:57 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:52:57 alina kernel: [22600682.054871] audit: type=1400 audit(1538999577.444:67570): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94640/status" pid=94640 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:52:57 alina kernel: [22600682.054932] audit: type=1400 audit(1538999577.444:67571): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94640 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:52:57 alina kernel: [22600682.055134] audit: type=1400 audit(1538999577.448:67572): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94640/status" pid=94640 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:52:57 alina kernel: [22600682.231885] audit: type=1400 audit(1538999577.624:67573): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibmftwTp" pid=94640 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:52:57 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:53:27 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:53:27 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:53:27 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:53:27 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:53:27 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:53:27 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:53:27 alina kernel: [22600712.548759] audit: type=1400 audit(1538999607.941:67574): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94722/status" pid=94722 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:53:27 alina kernel: [22600712.548815] audit: type=1400 audit(1538999607.941:67575): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94722 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:53:27 alina kernel: [22600712.549014] audit: type=1400 audit(1538999607.941:67576): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94722/status" pid=94722 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:53:28 alina kernel: [22600712.720694] audit: type=1400 audit(1538999608.113:67577): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibsBBaUU" pid=94722 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:53:28 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:53:58 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:53:58 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:53:58 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:53:58 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:53:58 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:53:58 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:53:58 alina kernel: [22600743.048084] audit: type=1400 audit(1538999638.446:67578): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94800/status" pid=94800 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:53:58 alina kernel: [22600743.048135] audit: type=1400 audit(1538999638.446:67579): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94800 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:53:58 alina kernel: [22600743.048307] audit: type=1400 audit(1538999638.446:67580): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94800/status" pid=94800 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:53:58 alina kernel: [22600743.226376] audit: type=1400 audit(1538999638.622:67581): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibNRE3eF" pid=94800 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:53:58 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:54:28 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:54:28 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:54:28 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:54:28 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:54:28 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:54:28 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:54:28 alina kernel: [22600773.540707] audit: type=1400 audit(1538999668.943:67582): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94878/status" pid=94878 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:54:28 alina kernel: [22600773.540759] audit: type=1400 audit(1538999668.943:67583): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94878 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:54:28 alina kernel: [22600773.540945] audit: type=1400 audit(1538999668.943:67584): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94878/status" pid=94878 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:54:29 alina kernel: [22600773.712054] audit: type=1400 audit(1538999669.115:67585): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibeC5rja" pid=94878 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:54:29 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:54:59 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:54:59 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:54:59 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:54:59 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:54:59 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:54:59 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:54:59 alina kernel: [22600804.039816] audit: type=1400 audit(1538999699.445:67586): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94957/status" pid=94957 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:54:59 alina kernel: [22600804.039877] audit: type=1400 audit(1538999699.449:67587): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=94957 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:54:59 alina kernel: [22600804.040052] audit: type=1400 audit(1538999699.449:67588): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/94957/status" pid=94957 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:54:59 alina kernel: [22600804.216741] audit: type=1400 audit(1538999699.625:67589): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibd1HIRU" pid=94957 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:54:59 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:55:29 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:55:29 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:55:29 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:55:29 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:55:29 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:55:29 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:55:29 alina kernel: [22600834.536453] audit: type=1400 audit(1538999729.946:67590): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95034/status" pid=95034 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:55:29 alina kernel: [22600834.536531] audit: type=1400 audit(1538999729.946:67591): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95034 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:55:29 alina kernel: [22600834.536760] audit: type=1400 audit(1538999729.946:67592): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95034/status" pid=95034 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:55:30 alina kernel: [22600834.715374] audit: type=1400 audit(1538999730.122:67593): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibnWPOmq" pid=95034 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:55:30 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:56:00 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:56:00 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:56:00 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:56:00 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:56:00 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:56:00 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:56:00 alina kernel: [22600865.032633] audit: type=1400 audit(1538999760.447:67594): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95113/status" pid=95113 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:56:00 alina kernel: [22600865.032714] audit: type=1400 audit(1538999760.447:67595): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95113 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:56:00 alina kernel: [22600865.032940] audit: type=1400 audit(1538999760.447:67596): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95113/status" pid=95113 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:56:00 alina kernel: [22600865.208097] audit: type=1400 audit(1538999760.619:67597): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibL6Ysga" pid=95113 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:56:00 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:56:30 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:56:30 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:56:30 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:56:30 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:56:30 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:56:30 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:56:30 alina kernel: [22600895.526469] audit: type=1400 audit(1538999790.944:67598): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95193/status" pid=95193 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:56:30 alina kernel: [22600895.526524] audit: type=1400 audit(1538999790.944:67599): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95193 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:56:30 alina kernel: [22600895.526695] audit: type=1400 audit(1538999790.944:67600): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95193/status" pid=95193 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:56:31 alina kernel: [22600895.705289] audit: type=1400 audit(1538999791.124:67601): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibCnps1F" pid=95193 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:56:31 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:57:01 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:57:01 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:57:01 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:57:01 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:57:01 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:57:01 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:57:01 alina kernel: [22600926.024336] audit: type=1400 audit(1538999821.441:67602): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95273/status" pid=95273 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:57:01 alina kernel: [22600926.024396] audit: type=1400 audit(1538999821.441:67603): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95273 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:57:01 alina kernel: [22600926.024591] audit: type=1400 audit(1538999821.445:67604): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95273/status" pid=95273 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:57:01 alina kernel: [22600926.203637] audit: type=1400 audit(1538999821.621:67605): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibZ96xGp" pid=95273 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:57:01 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:57:31 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:57:31 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:57:31 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:57:31 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:57:31 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:57:31 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:57:31 alina kernel: [22600956.520874] audit: type=1400 audit(1538999851.946:67606): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95357/status" pid=95357 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:57:31 alina kernel: [22600956.520936] audit: type=1400 audit(1538999851.946:67607): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95357 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:57:31 alina kernel: [22600956.521108] audit: type=1400 audit(1538999851.946:67608): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95357/status" pid=95357 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:57:32 alina kernel: [22600956.700040] audit: type=1400 audit(1538999852.122:67609): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibgASFkV" pid=95357 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:57:32 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:58:02 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:58:02 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:58:02 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:58:02 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:58:02 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:58:02 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:58:02 alina kernel: [22600987.016977] audit: type=1400 audit(1538999882.448:67610): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95446/status" pid=95446 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:58:02 alina kernel: [22600987.017054] audit: type=1400 audit(1538999882.448:67611): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95446 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:58:02 alina kernel: [22600987.017276] audit: type=1400 audit(1538999882.448:67612): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95446/status" pid=95446 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:58:02 alina kernel: [22600987.195819] audit: type=1400 audit(1538999882.624:67613): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibImyQaF" pid=95446 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:58:02 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:58:32 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:58:32 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:58:32 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:58:32 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:58:32 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:58:32 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:58:32 alina kernel: [22601017.513160] audit: type=1400 audit(1538999912.945:67614): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95538/status" pid=95538 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:58:32 alina kernel: [22601017.513239] audit: type=1400 audit(1538999912.945:67615): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95538 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:58:32 alina kernel: [22601017.513472] audit: type=1400 audit(1538999912.945:67616): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95538/status" pid=95538 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:58:33 alina kernel: [22601017.692385] audit: type=1400 audit(1538999913.121:67617): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibJOzQOa" pid=95538 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:58:33 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:59:03 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:59:03 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:59:03 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:59:03 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:59:03 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:59:03 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:59:03 alina kernel: [22601048.006891] audit: type=1400 audit(1538999943.442:67618): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95632/status" pid=95632 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:59:03 alina kernel: [22601048.006951] audit: type=1400 audit(1538999943.442:67619): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95632 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:59:03 alina kernel: [22601048.007137] audit: type=1400 audit(1538999943.442:67620): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95632/status" pid=95632 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:59:03 alina kernel: [22601048.178450] audit: type=1400 audit(1538999943.614:67621): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibKnOIOR" pid=95632 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:59:03 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 07:59:16 alina systemd-timesyncd[64054]: Timed out waiting for reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Oct  8 07:59:33 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 07:59:33 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 07:59:33 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 07:59:33 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 07:59:33 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 07:59:33 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 07:59:33 alina kernel: [22601078.504602] audit: type=1400 audit(1538999973.943:67622): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95725/status" pid=95725 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:59:33 alina kernel: [22601078.504658] audit: type=1400 audit(1538999973.943:67623): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95725 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 07:59:33 alina kernel: [22601078.504838] audit: type=1400 audit(1538999973.943:67624): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95725/status" pid=95725 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 07:59:34 alina kernel: [22601078.685912] audit: type=1400 audit(1538999974.127:67625): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib8wRR4p" pid=95725 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 07:59:34 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:00:01 alina CRON[95802]: (smmsp) CMD (test -x /etc/init.d/sendmail && test -x /usr/share/sendmail/sendmail && test -x /usr/lib/sm.bin/sendmail && /usr/share/sendmail/sendmail cron-msp)
+Oct  8 08:00:04 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:00:04 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:00:04 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:00:04 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:00:04 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:00:04 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:00:04 alina kernel: [22601109.000352] audit: type=1400 audit(1539000004.444:67626): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95840/status" pid=95840 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:00:04 alina kernel: [22601109.000427] audit: type=1400 audit(1539000004.444:67627): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95840 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:00:04 alina kernel: [22601109.000644] audit: type=1400 audit(1539000004.444:67628): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95840/status" pid=95840 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:00:04 alina kernel: [22601109.179749] audit: type=1400 audit(1539000004.624:67629): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibCozh39" pid=95840 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:00:04 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:00:34 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:00:34 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:00:34 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:00:34 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:00:34 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:00:34 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:00:34 alina kernel: [22601139.498257] audit: type=1400 audit(1539000034.945:67630): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95922/status" pid=95922 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:00:34 alina kernel: [22601139.498310] audit: type=1400 audit(1539000034.945:67631): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=95922 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:00:34 alina kernel: [22601139.498475] audit: type=1400 audit(1539000034.945:67632): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/95922/status" pid=95922 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:00:35 alina kernel: [22601139.676259] audit: type=1400 audit(1539000035.121:67633): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib6hs9HF" pid=95922 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:00:35 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:01:05 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:01:05 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:01:05 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:01:05 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:01:05 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:01:05 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:01:05 alina kernel: [22601169.990271] audit: type=1400 audit(1539000065.442:67634): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96001/status" pid=96001 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:01:05 alina kernel: [22601169.990329] audit: type=1400 audit(1539000065.442:67635): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96001 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:01:05 alina kernel: [22601169.990500] audit: type=1400 audit(1539000065.442:67636): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96001/status" pid=96001 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:01:05 alina kernel: [22601170.164347] audit: type=1400 audit(1539000065.614:67637): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibeavhzm" pid=96001 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:01:05 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:01:35 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:01:35 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:01:35 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:01:35 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:01:35 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:01:35 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:01:35 alina kernel: [22601200.487223] audit: type=1400 audit(1539000095.944:67638): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96079/status" pid=96079 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:01:35 alina kernel: [22601200.487282] audit: type=1400 audit(1539000095.944:67639): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96079 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:01:35 alina kernel: [22601200.487464] audit: type=1400 audit(1539000095.944:67640): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96079/status" pid=96079 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:01:36 alina kernel: [22601200.661928] audit: type=1400 audit(1539000096.116:67641): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibpQoOtU" pid=96079 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:01:36 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:02:06 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:02:06 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:02:06 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:02:06 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:02:06 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:02:06 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:02:06 alina kernel: [22601230.982749] audit: type=1400 audit(1539000126.441:67642): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96157/status" pid=96157 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:02:06 alina kernel: [22601230.982811] audit: type=1400 audit(1539000126.441:67643): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96157 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:02:06 alina kernel: [22601230.982991] audit: type=1400 audit(1539000126.441:67644): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96157/status" pid=96157 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:02:06 alina kernel: [22601231.154552] audit: type=1400 audit(1539000126.613:67645): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib5gfHcC" pid=96157 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:02:06 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:02:36 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:02:36 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:02:36 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:02:36 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:02:36 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:02:36 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:02:36 alina kernel: [22601261.480703] audit: type=1400 audit(1539000156.942:67646): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96237/status" pid=96237 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:02:36 alina kernel: [22601261.480766] audit: type=1400 audit(1539000156.942:67647): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96237 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:02:36 alina kernel: [22601261.480949] audit: type=1400 audit(1539000156.942:67648): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96237/status" pid=96237 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:02:37 alina kernel: [22601261.659468] audit: type=1400 audit(1539000157.122:67649): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibNhKYVa" pid=96237 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:02:37 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:03:07 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:03:07 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:03:07 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:03:07 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:03:07 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:03:07 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:03:07 alina kernel: [22601291.982606] audit: type=1400 audit(1539000187.447:67650): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96316/status" pid=96316 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:03:07 alina kernel: [22601291.982688] audit: type=1400 audit(1539000187.447:67651): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96316 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:03:07 alina kernel: [22601291.982945] audit: type=1400 audit(1539000187.451:67652): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96316/status" pid=96316 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:03:07 alina kernel: [22601292.155351] audit: type=1400 audit(1539000187.623:67653): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibOpyFLU" pid=96316 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:03:07 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:03:37 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:03:37 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:03:37 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:03:37 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:03:37 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:03:37 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:03:37 alina kernel: [22601322.474104] audit: type=1400 audit(1539000217.944:67654): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96394/status" pid=96394 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:03:37 alina kernel: [22601322.474162] audit: type=1400 audit(1539000217.944:67655): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96394 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:03:37 alina kernel: [22601322.474334] audit: type=1400 audit(1539000217.944:67656): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96394/status" pid=96394 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:03:38 alina kernel: [22601322.655656] audit: type=1400 audit(1539000218.128:67657): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibaCAZZp" pid=96394 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:03:38 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:04:08 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:04:08 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:04:08 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:04:08 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:04:08 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:04:08 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:04:08 alina kernel: [22601352.969077] audit: type=1400 audit(1539000248.441:67658): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96474/status" pid=96474 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:04:08 alina kernel: [22601352.969135] audit: type=1400 audit(1539000248.441:67659): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96474 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:04:08 alina kernel: [22601352.969310] audit: type=1400 audit(1539000248.441:67660): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96474/status" pid=96474 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:04:08 alina kernel: [22601353.141188] audit: type=1400 audit(1539000248.613:67661): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibsGDF26" pid=96474 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:04:08 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:04:38 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:04:38 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:04:38 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:04:38 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:04:38 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:04:38 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:04:38 alina kernel: [22601383.467216] audit: type=1400 audit(1539000278.943:67662): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96553/status" pid=96553 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:04:38 alina kernel: [22601383.467297] audit: type=1400 audit(1539000278.947:67663): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96553 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:04:38 alina kernel: [22601383.467476] audit: type=1400 audit(1539000278.947:67664): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96553/status" pid=96553 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:04:39 alina kernel: [22601383.646468] audit: type=1400 audit(1539000279.123:67665): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibS8yNJF" pid=96553 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:04:39 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:05:09 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:05:09 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:05:09 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:05:09 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:05:09 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:05:09 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:05:09 alina kernel: [22601413.963060] audit: type=1400 audit(1539000309.444:67666): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96632/status" pid=96632 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:05:09 alina kernel: [22601413.963109] audit: type=1400 audit(1539000309.444:67667): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96632 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:05:09 alina kernel: [22601413.963279] audit: type=1400 audit(1539000309.444:67668): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96632/status" pid=96632 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:05:09 alina kernel: [22601414.142452] audit: type=1400 audit(1539000309.624:67669): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibLhn5yp" pid=96632 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:05:09 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:05:39 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:05:39 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:05:39 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:05:39 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:05:39 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:05:39 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:05:39 alina kernel: [22601444.458578] audit: type=1400 audit(1539000339.941:67670): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96713/status" pid=96713 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:05:39 alina kernel: [22601444.458634] audit: type=1400 audit(1539000339.941:67671): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96713 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:05:39 alina kernel: [22601444.458799] audit: type=1400 audit(1539000339.941:67672): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96713/status" pid=96713 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:05:40 alina kernel: [22601444.637744] audit: type=1400 audit(1539000340.121:67673): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib5vF29U" pid=96713 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:05:40 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:06:10 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:06:10 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:06:10 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:06:10 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:06:10 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:06:10 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:06:10 alina kernel: [22601474.954114] audit: type=1400 audit(1539000370.442:67674): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96793/status" pid=96793 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:06:10 alina kernel: [22601474.954172] audit: type=1400 audit(1539000370.442:67675): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96793 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:06:10 alina kernel: [22601474.954352] audit: type=1400 audit(1539000370.442:67676): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96793/status" pid=96793 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:06:10 alina kernel: [22601475.133845] audit: type=1400 audit(1539000370.622:67677): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibqzhgYE" pid=96793 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:06:10 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:06:40 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:06:40 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:06:40 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:06:40 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:06:40 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:06:40 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:06:40 alina kernel: [22601505.448063] audit: type=1400 audit(1539000400.943:67678): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96871/status" pid=96871 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:06:40 alina kernel: [22601505.448124] audit: type=1400 audit(1539000400.943:67679): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96871 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:06:40 alina kernel: [22601505.448312] audit: type=1400 audit(1539000400.943:67680): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96871/status" pid=96871 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:06:41 alina kernel: [22601505.622844] audit: type=1400 audit(1539000401.115:67681): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibgE2b79" pid=96871 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:06:41 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:07:11 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:07:11 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:07:11 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:07:11 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:07:11 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:07:11 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:07:11 alina kernel: [22601535.946579] audit: type=1400 audit(1539000431.444:67682): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96950/status" pid=96950 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:07:11 alina kernel: [22601535.946656] audit: type=1400 audit(1539000431.444:67683): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=96950 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:07:11 alina kernel: [22601535.946871] audit: type=1400 audit(1539000431.444:67684): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/96950/status" pid=96950 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:07:11 alina kernel: [22601536.127713] audit: type=1400 audit(1539000431.624:67685): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib3cZUuU" pid=96950 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:07:11 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:07:41 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:07:41 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:07:41 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:07:41 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:07:41 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:07:41 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:07:41 alina kernel: [22601566.441014] audit: type=1400 audit(1539000461.941:67686): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97028/status" pid=97028 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:07:41 alina kernel: [22601566.441084] audit: type=1400 audit(1539000461.941:67687): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97028 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:07:41 alina kernel: [22601566.441318] audit: type=1400 audit(1539000461.941:67688): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97028/status" pid=97028 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:07:42 alina kernel: [22601566.613280] audit: type=1400 audit(1539000462.113:67689): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibMKruJp" pid=97028 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:07:42 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:08:12 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:08:12 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:08:12 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:08:12 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:08:12 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:08:12 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:08:12 alina kernel: [22601596.937326] audit: type=1400 audit(1539000492.443:67690): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97107/status" pid=97107 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:08:12 alina kernel: [22601596.937384] audit: type=1400 audit(1539000492.443:67691): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97107 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:08:12 alina kernel: [22601596.937567] audit: type=1400 audit(1539000492.443:67692): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97107/status" pid=97107 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:08:12 alina kernel: [22601597.112594] audit: type=1400 audit(1539000492.619:67693): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib172JQ6" pid=97107 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:08:12 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:08:42 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:08:42 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:08:42 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:08:42 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:08:42 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:08:42 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:08:42 alina kernel: [22601627.433370] audit: type=1400 audit(1539000522.944:67694): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97187/status" pid=97187 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:08:42 alina kernel: [22601627.433427] audit: type=1400 audit(1539000522.944:67695): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97187 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:08:42 alina kernel: [22601627.433597] audit: type=1400 audit(1539000522.944:67696): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97187/status" pid=97187 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:08:43 alina kernel: [22601627.606857] audit: type=1400 audit(1539000523.116:67697): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibrTSkZE" pid=97187 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:08:43 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:09:13 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:09:13 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:09:13 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:09:13 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:09:13 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:09:13 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:09:13 alina kernel: [22601657.930194] audit: type=1400 audit(1539000553.441:67698): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97264/status" pid=97264 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:09:13 alina kernel: [22601657.930255] audit: type=1400 audit(1539000553.441:67699): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97264 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:09:13 alina kernel: [22601657.930427] audit: type=1400 audit(1539000553.441:67700): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97264/status" pid=97264 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:09:13 alina kernel: [22601658.105136] audit: type=1400 audit(1539000553.617:67701): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibnKSnjm" pid=97264 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:09:13 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:09:43 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:09:43 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:09:43 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:09:43 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:09:43 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:09:43 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:09:43 alina kernel: [22601688.427541] audit: type=1400 audit(1539000583.942:67702): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97343/status" pid=97343 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:09:43 alina kernel: [22601688.427592] audit: type=1400 audit(1539000583.942:67703): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97343 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:09:43 alina kernel: [22601688.427776] audit: type=1400 audit(1539000583.942:67704): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97343/status" pid=97343 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:09:44 alina kernel: [22601688.605245] audit: type=1400 audit(1539000584.122:67705): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibSt6ceV" pid=97343 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:09:44 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:10:14 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:10:14 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:10:14 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:10:14 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:10:14 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:10:14 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:10:14 alina kernel: [22601718.923286] audit: type=1400 audit(1539000614.443:67706): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97425/status" pid=97425 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:10:14 alina kernel: [22601718.923347] audit: type=1400 audit(1539000614.443:67707): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97425 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:10:14 alina kernel: [22601718.923537] audit: type=1400 audit(1539000614.443:67708): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97425/status" pid=97425 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:10:14 alina kernel: [22601719.093573] audit: type=1400 audit(1539000614.615:67709): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibBFwk4B" pid=97425 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:10:14 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:10:44 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:10:44 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:10:44 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:10:44 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:10:44 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:10:44 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:10:44 alina kernel: [22601749.419240] audit: type=1400 audit(1539000644.944:67710): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97505/status" pid=97505 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:10:44 alina kernel: [22601749.419299] audit: type=1400 audit(1539000644.944:67711): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97505 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:10:44 alina kernel: [22601749.419479] audit: type=1400 audit(1539000644.944:67712): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97505/status" pid=97505 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:10:45 alina kernel: [22601749.597912] audit: type=1400 audit(1539000645.124:67713): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibZq9wHa" pid=97505 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:10:45 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:11:15 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:11:15 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:11:15 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:11:15 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:11:15 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:11:15 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:11:15 alina kernel: [22601779.918415] audit: type=1400 audit(1539000675.446:67714): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97586/status" pid=97586 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:11:15 alina kernel: [22601779.918476] audit: type=1400 audit(1539000675.446:67715): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97586 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:11:15 alina kernel: [22601779.918652] audit: type=1400 audit(1539000675.446:67716): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97586/status" pid=97586 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:11:15 alina kernel: [22601780.094404] audit: type=1400 audit(1539000675.622:67717): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibLKHIDU" pid=97586 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:11:15 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:11:45 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:11:45 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:11:45 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:11:45 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:11:45 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:11:45 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:11:45 alina kernel: [22601810.409645] audit: type=1400 audit(1539000705.939:67718): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97667/status" pid=97667 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:11:45 alina kernel: [22601810.409704] audit: type=1400 audit(1539000705.939:67719): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97667 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:11:45 alina kernel: [22601810.409912] audit: type=1400 audit(1539000705.943:67720): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97667/status" pid=97667 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:11:46 alina kernel: [22601810.586416] audit: type=1400 audit(1539000706.119:67721): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibspgyhp" pid=97667 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:11:46 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:12:16 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:12:16 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:12:16 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:12:16 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:12:16 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:12:16 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:12:16 alina kernel: [22601840.909070] audit: type=1400 audit(1539000736.444:67722): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97744/status" pid=97744 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:12:16 alina kernel: [22601840.909137] audit: type=1400 audit(1539000736.444:67723): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97744 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:12:16 alina kernel: [22601840.909369] audit: type=1400 audit(1539000736.444:67724): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97744/status" pid=97744 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:12:16 alina kernel: [22601841.098527] audit: type=1400 audit(1539000736.636:67725): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibmBANka" pid=97744 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:12:16 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:12:46 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:12:46 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:12:46 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:12:46 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:12:46 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:12:46 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:12:46 alina kernel: [22601871.407232] audit: type=1400 audit(1539000766.945:67726): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97823/status" pid=97823 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:12:46 alina kernel: [22601871.407290] audit: type=1400 audit(1539000766.945:67727): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97823 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:12:46 alina kernel: [22601871.407480] audit: type=1400 audit(1539000766.945:67728): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97823/status" pid=97823 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:12:47 alina kernel: [22601871.583961] audit: type=1400 audit(1539000767.121:67729): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibwWWxIF" pid=97823 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:12:47 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:13:17 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:13:17 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:13:17 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:13:17 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:13:17 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:13:17 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:13:17 alina kernel: [22601901.902712] audit: type=1400 audit(1539000797.446:67730): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97900/status" pid=97900 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:13:17 alina kernel: [22601901.902766] audit: type=1400 audit(1539000797.446:67731): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97900 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:13:17 alina kernel: [22601901.902928] audit: type=1400 audit(1539000797.446:67732): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97900/status" pid=97900 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:13:17 alina kernel: [22601902.080412] audit: type=1400 audit(1539000797.622:67733): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib7gWLmp" pid=97900 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:13:17 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:13:47 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:13:47 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:13:47 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:13:47 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:13:47 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:13:47 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:13:47 alina kernel: [22601932.397591] audit: type=1400 audit(1539000827.943:67734): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97978/status" pid=97978 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:13:47 alina kernel: [22601932.397667] audit: type=1400 audit(1539000827.943:67735): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=97978 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:13:47 alina kernel: [22601932.397890] audit: type=1400 audit(1539000827.943:67736): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/97978/status" pid=97978 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:13:48 alina kernel: [22601932.577334] audit: type=1400 audit(1539000828.123:67737): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibacoeZU" pid=97978 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:13:48 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:14:18 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:14:18 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:14:18 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:14:18 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:14:18 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:14:18 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:14:18 alina kernel: [22601962.906578] audit: type=1400 audit(1539000858.456:67738): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98057/status" pid=98057 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:14:18 alina kernel: [22601962.906656] audit: type=1400 audit(1539000858.456:67739): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98057 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:14:18 alina kernel: [22601962.906909] audit: type=1400 audit(1539000858.460:67740): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98057/status" pid=98057 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:14:18 alina kernel: [22601963.082847] audit: type=1400 audit(1539000858.636:67741): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibkUJckF" pid=98057 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:14:18 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:14:48 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:14:48 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:14:48 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:14:48 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:14:48 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:14:48 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:14:48 alina kernel: [22601993.390044] audit: type=1400 audit(1539000888.942:67742): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98137/status" pid=98137 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:14:48 alina kernel: [22601993.390107] audit: type=1400 audit(1539000888.942:67743): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98137 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:14:48 alina kernel: [22601993.390284] audit: type=1400 audit(1539000888.942:67744): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98137/status" pid=98137 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:14:49 alina kernel: [22601993.570431] audit: type=1400 audit(1539000889.122:67745): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibGR6Pza" pid=98137 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:14:49 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:15:19 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:15:19 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:15:19 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:15:19 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:15:19 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:15:19 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:15:19 alina kernel: [22602023.883210] audit: type=1400 audit(1539000919.443:67746): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98219/status" pid=98219 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:15:19 alina kernel: [22602023.883275] audit: type=1400 audit(1539000919.443:67747): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98219 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:15:19 alina kernel: [22602023.883498] audit: type=1400 audit(1539000919.443:67748): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98219/status" pid=98219 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:15:19 alina kernel: [22602024.055765] audit: type=1400 audit(1539000919.615:67749): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibMmsbCR" pid=98219 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:15:19 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:15:49 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:15:49 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:15:49 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:15:49 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:15:49 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:15:49 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:15:49 alina kernel: [22602054.383054] audit: type=1400 audit(1539000949.944:67750): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98297/status" pid=98297 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:15:49 alina kernel: [22602054.383112] audit: type=1400 audit(1539000949.944:67751): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98297 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:15:49 alina kernel: [22602054.383320] audit: type=1400 audit(1539000949.944:67752): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98297/status" pid=98297 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:15:50 alina kernel: [22602054.559601] audit: type=1400 audit(1539000950.124:67753): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibufPs8p" pid=98297 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:15:50 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:16:20 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:16:20 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:16:20 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:16:20 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:16:20 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:16:20 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:16:20 alina kernel: [22602084.877707] audit: type=1400 audit(1539000980.441:67754): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98375/status" pid=98375 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:16:20 alina kernel: [22602084.877785] audit: type=1400 audit(1539000980.441:67755): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98375 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:16:20 alina kernel: [22602084.878018] audit: type=1400 audit(1539000980.441:67756): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98375/status" pid=98375 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:16:20 alina kernel: [22602085.058095] audit: type=1400 audit(1539000980.621:67757): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibMKErV9" pid=98375 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:16:20 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:16:50 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:16:50 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:16:50 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:16:50 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:16:50 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:16:50 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:16:50 alina kernel: [22602115.376399] audit: type=1400 audit(1539001010.946:67758): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98452/status" pid=98452 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:16:50 alina kernel: [22602115.376480] audit: type=1400 audit(1539001010.946:67759): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98452 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:16:50 alina kernel: [22602115.376715] audit: type=1400 audit(1539001010.946:67760): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98452/status" pid=98452 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:16:51 alina kernel: [22602115.554033] audit: type=1400 audit(1539001011.122:67761): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibcRiHtF" pid=98452 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:16:51 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:17:01 alina CRON[98482]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Oct  8 08:17:21 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:17:21 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:17:21 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:17:21 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:17:21 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:17:21 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:17:21 alina kernel: [22602145.868576] audit: type=1400 audit(1539001041.443:67762): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98535/status" pid=98535 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:17:21 alina kernel: [22602145.868631] audit: type=1400 audit(1539001041.443:67763): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98535 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:17:21 alina kernel: [22602145.868821] audit: type=1400 audit(1539001041.443:67764): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98535/status" pid=98535 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:17:21 alina kernel: [22602146.044397] audit: type=1400 audit(1539001041.619:67765): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibL2Vckm" pid=98535 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:17:21 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:17:51 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:17:51 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:17:51 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:17:51 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:17:51 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:17:51 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:17:51 alina kernel: [22602176.364205] audit: type=1400 audit(1539001071.945:67766): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98613/status" pid=98613 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:17:51 alina kernel: [22602176.364283] audit: type=1400 audit(1539001071.945:67767): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98613 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:17:51 alina kernel: [22602176.364503] audit: type=1400 audit(1539001071.945:67768): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98613/status" pid=98613 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:17:52 alina kernel: [22602176.537971] audit: type=1400 audit(1539001072.117:67769): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibWLLMmU" pid=98613 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:17:52 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:18:22 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:18:22 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:18:22 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:18:22 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:18:22 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:18:22 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:18:22 alina kernel: [22602206.864266] audit: type=1400 audit(1539001102.446:67770): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98694/status" pid=98694 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:18:22 alina kernel: [22602206.864324] audit: type=1400 audit(1539001102.446:67771): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98694 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:18:22 alina kernel: [22602206.864512] audit: type=1400 audit(1539001102.446:67772): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98694/status" pid=98694 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:18:22 alina kernel: [22602207.040527] audit: type=1400 audit(1539001102.622:67773): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibR0AuUE" pid=98694 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:18:22 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:18:52 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:18:52 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:18:52 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:18:52 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:18:52 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:18:52 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:18:52 alina kernel: [22602237.356673] audit: type=1400 audit(1539001132.943:67774): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98772/status" pid=98772 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:18:52 alina kernel: [22602237.356746] audit: type=1400 audit(1539001132.943:67775): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98772 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:18:52 alina kernel: [22602237.356975] audit: type=1400 audit(1539001132.943:67776): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98772/status" pid=98772 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:18:53 alina kernel: [22602237.539358] audit: type=1400 audit(1539001133.123:67777): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ib8ZInya" pid=98772 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:18:53 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:19:23 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:19:23 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:19:23 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:19:23 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:19:23 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:19:23 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:19:23 alina kernel: [22602267.856751] audit: type=1400 audit(1539001163.448:67778): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98854/status" pid=98854 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:19:23 alina kernel: [22602267.856834] audit: type=1400 audit(1539001163.448:67779): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98854 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:19:23 alina kernel: [22602267.857060] audit: type=1400 audit(1539001163.448:67780): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98854/status" pid=98854 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:19:23 alina kernel: [22602268.035939] audit: type=1400 audit(1539001163.624:67781): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibzui5kU" pid=98854 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:19:23 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:19:53 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:19:53 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:19:53 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:19:53 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:19:53 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:19:53 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:19:53 alina kernel: [22602298.344864] audit: type=1400 audit(1539001193.937:67782): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98933/status" pid=98933 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:19:53 alina kernel: [22602298.344922] audit: type=1400 audit(1539001193.937:67783): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=98933 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:19:53 alina kernel: [22602298.345107] audit: type=1400 audit(1539001193.937:67784): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/98933/status" pid=98933 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:19:54 alina kernel: [22602298.532840] audit: type=1400 audit(1539001194.125:67785): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibD1t3Np" pid=98933 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:19:54 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:20:01 alina CRON[98956]: (smmsp) CMD (test -x /etc/init.d/sendmail && test -x /usr/share/sendmail/sendmail && test -x /usr/lib/sm.bin/sendmail && /usr/share/sendmail/sendmail cron-msp)
+Oct  8 08:20:24 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:20:24 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:20:24 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
+Oct  8 08:20:24 alina systemd[1]: mysql.service: Service hold-off time over, scheduling restart.
+Oct  8 08:20:24 alina systemd[1]: Stopped MySQL Community Server.
+Oct  8 08:20:24 alina systemd[1]: Starting MySQL Community Server...
+Oct  8 08:20:24 alina kernel: [22602328.847930] audit: type=1400 audit(1539001224.442:67786): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/99033/status" pid=99033 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:20:24 alina kernel: [22602328.848001] audit: type=1400 audit(1539001224.442:67787): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/sys/devices/system/node/" pid=99033 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=0
+Oct  8 08:20:24 alina kernel: [22602328.848239] audit: type=1400 audit(1539001224.442:67788): apparmor="DENIED" operation="open" profile="/usr/sbin/mysqld" name="/proc/99033/status" pid=99033 comm="mysqld" requested_mask="r" denied_mask="r" fsuid=118 ouid=118
+Oct  8 08:20:24 alina kernel: [22602329.026812] audit: type=1400 audit(1539001224.622:67789): apparmor="DENIED" operation="mknod" profile="/usr/sbin/mysqld" name="/alina-data1/tmp/ibklSRL9" pid=99033 comm="mysqld" requested_mask="c" denied_mask="c" fsuid=118 ouid=118
+Oct  8 08:20:24 alina systemd[1]: mysql.service: Main process exited, code=exited, status=1/FAILURE
+Oct  8 08:20:54 alina systemd[1]: Failed to start MySQL Community Server.
+Oct  8 08:20:54 alina systemd[1]: mysql.service: Unit entered failed state.
+Oct  8 08:20:54 alina systemd[1]: mysql.service: Failed with result 'exit-code'.
